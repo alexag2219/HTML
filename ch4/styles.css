@@ -1,0 +1,49 @@
+/* Alexa Gomez 9/23/25 */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#d7c7aa;
+    color:#926f4f;
+    font-size:16px;
+}
+
+h1{
+    background:#29485d;
+    background-color:#00602b; /*Green for Italian vibe*/
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    font-style:italic;
+    color:#ffffff;
+    
+}
+
+h2,h3{
+    color:#342517;
+}
+
+p{
+    color:#230e06;
+    background-color:#ffffff;
+}
+
+.highlight{
+    font-weight:bold;
+    color:#ee1e28;
+    font-style:italic;
+}
+ .special-item{
+    background:#ffffff;
+ }
+
+ .footer{
+    text-align:center;
+    color:white;
+    background-color:#bb161d;
+ }
+
+
+
+
+
+
