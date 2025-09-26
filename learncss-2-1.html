@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--Alexa Gomez 9/25/25-->
+<html lang="en">
+<head>
+<title>CSS Practice Extra Credit</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Put your CSS styles below */
+
+    
+    
+    
+    
+    /*The CSS below needs to stay here. Don't touch it if you want your page to work.  See note below for the one item that can be removed. */
+    /* If you want to change the colors of the boxes those colors are on line 40,48,abd 54.  Feel free to change those. */
+ * 
+{
+  box-sizing: border-box;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px)
+{
+  .column.side, .column.middle
+    {
+    width: 100%;
+     }
+ }
+    /* Create three unequal columns that floats next to each other */
+.column
+{
+  float: left;
+  padding: 10px;
+ 
+}
+
+/* Left column */
+.column.sideleft 
+{
+  width: 25%;
+  background-color:#FFB6C1;
+  overflow: auto;
+  font-size: 20px;
+  color:navy
+  
+}
+
+/* Middle column */
+.column.middle
+{
+  width: 50%;
+  background-color:#ffd1dc;
+  font-size: 20px;
+  color:navy
+}
+/* right column */
+.column.sideright
+{
+  width: 25%;
+ background-color:#ffb6c1;
+ font-size: 20px;
+ color:navy
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+h2,h3{
+  color:navy;
+  text-align: center;
+}
+p{
+  text-align: center;
+  color:navy
+}
+footer{
+  text-align: center;
+  color:navy;
+}
+
+    
+</style>
+</head>
+<body>
+
+<h2>CSS Template Extra Credit</h2>
+
+<p> This is a page about my favorite movies, foods, and more. </p>
+    
+<!-- The header section --> 
+<div class="header">
+  <h2>Alexa Gomez</h2>
+</div>
+
+ <div > <!-- The subheader section --> 
+  <h3>This is my first CSS web page with CSS! </h3>
+</div>
+<div>
+    <!-- The first column --> 
+	<div class="column sideleft">
+	<p> My Favorite Foods </p>
+		<ul>
+      <li>Chicken Alfredo</li>
+      <li>Salmon and broccoli</li>
+      <li>Birria tacos</li>
+    </ul>
+   
+	</div>
+    
+     <!-- The second column --> 
+	<div class="column middle">
+	<p>5 facts about you </p>
+    <ul>
+      <li>I love having my nails and lashes done.</li>
+      <li>My favorite drink is sweet tea.</li>
+      <li>My favorite color is navy.</li>
+    </ul>
+	</div>
+    
+     <!-- The third column --> 
+	<div class="column sideright">
+  	<p>What do you want to do after JCCC?</p>
+    <p>My plans after graduating from JCCC is to attend esthetican school, take a vacation, 
+      and learn how to do lash extensions. 
+    </p>
+	</div>
+</div>
+
+     <!-- The footer section --> 
+<div footer>
+    <p><a href="mailto:agomez54@stumail.jccc.edu">agomez54@stumail.jccc.edu</a></p>
+    <p>September 25, 2025</p>
+
+</div>
+
+</body>
+</html>
+
+
